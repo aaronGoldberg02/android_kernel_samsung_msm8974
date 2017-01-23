@@ -373,9 +373,6 @@ else ifeq ($(CONFIG_SEC_MATISSE_PROJECT),y)
 	 dtb-$(CONFIG_ARCH_MSM8226)	+= msm8226-sec-matisse3g-r00.dtb
 	 dtb-$(CONFIG_ARCH_MSM8226)	+= msm8226-sec-matisse3g-r01.dtb
 	 dtb-$(CONFIG_ARCH_MSM8226)	+= msm8226-sec-matisse3g-r02.dtb
-     dtb-$(CONFIG_ARCH_MSM8226) += msm8226-sec-matissewifi-r00.dtb
-     dtb-$(CONFIG_ARCH_MSM8226) += msm8226-sec-matissewifi-r01.dtb
-     dtb-$(CONFIG_ARCH_MSM8226) += msm8226-sec-matissewifi-r02.dtb
 	 dtb-$(CONFIG_ARCH_MSM8226) += msm8226-sec-matissewifi-r03.dtb
 	 dtb-$(CONFIG_ARCH_MSM8226)	+= msm8926-sec-matisselte-r00.dtb
 	 dtb-$(CONFIG_ARCH_MSM8226)	+= msm8926-sec-matisselte-r01.dtb
